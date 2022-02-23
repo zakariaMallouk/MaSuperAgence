@@ -30,8 +30,12 @@ services:
     App\Controller\HomeController:
         tags: ['controller.service_arguments']
         arguments:
-            # $twig: '@twig'
+
+    # 
+    # App\Controller\Admin\AdminPropertyController:
+    #     tags: ['controller.service_arguments']
+    #     arguments:
+                # $twig: '@twig'
     # Doctrine\ORM\EntityManager:
     #     alias: doctrine.orm.default_entity_manager
     #     public: false
- 
