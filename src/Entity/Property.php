@@ -16,6 +16,7 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 class Property
 {
     const HEAT =[
+        0 =>'',
         1 => 'Electrique',
         2 => 'Gaz'
     ];
